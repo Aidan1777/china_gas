@@ -1,0 +1,55 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "设置中国燃气",
+        "description": "请输入您的小程序用户信息和燃气卡信息",
+        "data": {
+          "user_id": "用户ID",
+          "access_token": "访问令牌 (accessToken)",
+          "x_mas_app_info": "应用信息 (x-mas-app-info)",
+          "cust_code": "燃气客户编号",
+          "cust_name": "用户姓名"
+        }
+      },
+      "billing_config": {
+        "title": "计费标准配置",
+        "description": "请配置燃气阶梯计费参数（如当地气价固定1元/m³则无需修改）",
+        "data": {
+          "is_prepaid": "是否预付费",
+          "year_ladder_start": "年阶梯起始日期（格式：MMDD，如0101表示1月1日）",
+          "ladder_level_1": "年阶梯第2档起始用气量(m³)",
+          "ladder_level_2": "年阶梯第3档起始用气量(m³)",
+          "ladder_price_1": "年阶梯第1档气价(元/m³)",
+          "ladder_price_2": "年阶梯第2档气价(元/m³)",
+          "ladder_price_3": "年阶梯第3档气价(元/m³)"
+        }
+      }
+    },
+    "error": {
+      "unknown": "未知错误"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "修改中国燃气配置",
+        "description": "请修改您的小程序用户信息、燃气卡信息和计费参数",
+        "data": {
+          "user_id": "用户ID",
+          "access_token": "访问令牌 (accessToken)",
+          "x_mas_app_info": "应用信息 (x-mas-app-info)",
+          "cust_code": "燃气客户编号",
+          "cust_name": "用户姓名",
+          "is_prepaid": "是否预付费",
+          "year_ladder_start": "年阶梯起始日期（格式：MMDD，如0101表示1月1日）",
+          "ladder_level_1": "年阶梯第2档起始用气量(m³)",
+          "ladder_level_2": "年阶梯第3档起始用气量(m³)",
+          "ladder_price_1": "年阶梯第1档气价(元/m³)",
+          "ladder_price_2": "年阶梯第2档气价(元/m³)",
+          "ladder_price_3": "年阶梯第3档气价(元/m³)"
+        }
+      }
+    }
+  }
+}
