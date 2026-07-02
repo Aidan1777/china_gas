@@ -114,13 +114,6 @@ git clone https://github.com/Aidan1777/china_gas.git china_gas
 | `last_record` | 最近一次购气量（m³） |
 | `last_record_time` | 最近一次购气时间 |
 
-## 获取 token
-
-本集成需要从小程序中抓取以下参数：
-
-- `userId` / `accessToken` / `x-mas-app-info` — 通过抓包工具（如 Stream、Charles）捕获「壹品慧生活」微信小程序 API 请求头
-- `custCode` / `custName` — 在小程序「我的」页面查看
-
 ## 技术实现
 
 - 模拟微信小程序环境发起请求  
